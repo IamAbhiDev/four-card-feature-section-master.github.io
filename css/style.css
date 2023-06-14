@@ -32,3 +32,14 @@
     --medium: 400;
     --bold: 600;
 }
+
+/*Basic Styles*/
+
+body {
+    background-color: var(--very-light-gray);
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
