@@ -66,6 +66,57 @@ body {
 .container__header__text {
     color: var(--grayish-blue);
     font-size: 0.9375rem;
-    line-height: 1.5;
+    line-height: 1.6;
     margin-top: 1rem;
+}
+
+.container__card-container {
+    margin: 2rem;
+}
+
+.container__card-container__card {
+    background: white;
+    border-radius: .4rem;
+    box-shadow: 2px 10px 32px -15px hsla(212, 54%, 25%, 0.6);
+    padding: 1.2rem 1.8rem;
+}
+
+.container__card-container__card__heading {
+    color: var(--very-dark-blue);
+    font-size: 1.25rem;
+}
+
+.container__card-container__card__text {
+    color: var(--grayish-blue);
+    font-size: 0.8125rem;
+    margin-top: .4rem;
+}
+
+.container__card-container__card__icon {
+    text-align: end;
+    margin-top: 2.1rem;
+}
+
+.container__card-container__card:first-child {
+    margin-top: 4.4rem;
+}
+
+.container__card-container__card:not(:first-child) {
+    margin-top: 1.3rem;
+}
+
+.container__card-container__card--cyan {
+    border-top: 4px solid var(--cyan);
+}
+
+.container__card-container__card--red {
+    border-top: 4px solid var(--red);
+}
+
+.container__card-container__card--orange {
+    border-top: 4px solid var(--orange);
+}
+
+.container__card-container__card--blue {
+    border-top: 4px solid var(--blue);
 }
