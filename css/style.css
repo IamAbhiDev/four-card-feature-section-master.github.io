@@ -43,3 +43,29 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/*Como+ponents*/
+
+.container__header {
+    text-align: center;
+    margin: 2rem;
+}
+
+.container__header__heading {
+    color: var(--very-dark-blue);
+    font-size: 1.6rem;
+    font-weight: var(--light);
+}
+
+.container__header__sub-heading {
+    color: var(--very-dark-blue);
+    font-size: 1.6rem;
+    font-weight: var(--bold);
+}
+
+.container__header__text {
+    color: var(--grayish-blue);
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
